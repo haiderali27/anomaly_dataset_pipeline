@@ -15,4 +15,9 @@ This Repository contains the pipeline script for Cars Anomaly Detection Image Da
 2. Run the requirement File `pip install -r requirements.txt`
 3. Run `python pipeline_script.py` Make sure you put your kaggle authentication correctly and gdown will not download file for next hour since dataset from gdown is 5.6 GB. 
 4. You can run both of scripts explicitly `python prepare_data.py` and `python segment_data.py`
-
+5. If you see `_C` Error. Set your Cuda path 
+`export CUDA_HOME=/path/to/cuda-11.3/`
+`sudo find / -name nvcc`
+`find: ‘/run/user/1000/gvfs’: Permission denied`
+`find: ‘/run/user/1000/doc’: Permission denied`
+`/usr/local/cuda-12.3/bin/nvcc ==>This was the path in my case ==> export CUDA_HOME=/usr/local/cuda-12.3`
