@@ -24,5 +24,5 @@ This Repository contains the pipeline script for Cars Anomaly Detection Image Da
 
 ## More additions
 Split_data.ipynb notebook can be used to categorize data.
-Feel free to experiment. This is the link where you download the dataset. [dataset](https://drive.google.com/file/d/1qyvaeI_zY-A_x4aUlNzdgHn2y5-lqmZ3/view?usp=sharing)
+Feel free to experiment. This is the link where you download the dataset. [dataset](https://drive.google.com/file/d/1_wBbo3FW-puwMQanLNj-5kYf_Al_4kR6/view?usp=drive_link)
 
